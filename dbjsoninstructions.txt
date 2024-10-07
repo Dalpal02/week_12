@@ -1,0 +1,28 @@
+
+To install json-server:
+ npm install -g json-server@0.17.4
+
+To run json-server:
+json-server db.json
+
+make sure db.json is a file
+
+example resources:
+
+  Resources
+  http://localhost:3000/testdata
+
+  Home
+  http://localhost:3000
+
+  example db.json file:
+  [
+  {
+    "id": 0,
+    "name": "testName1"
+  },
+  {
+    "id": 1,
+    "name": "testName2"
+  }
+]
