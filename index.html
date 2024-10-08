@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- h1 is a heading tag
-    CTRL + / - creates a multi line comment
-     https://www.w3schools.com/tags/tag_hn.asp
-    -->
-    <h1>Week 12 Project</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD Application</h1>
+        <form id="entityForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Entity</button>
+        </form>
+        <h2 class="mt-4">Entities</h2>
+        <ul id="entityList" class="list-group"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
