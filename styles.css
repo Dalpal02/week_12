@@ -1,0 +1,22 @@
+body { background-color: aqua;
+
+}
+
+h1 {
+    color: brown;
+    text-decoration: wavy;
+    text-align: center;
+
+}
+
+h2 {
+     color: purple;
+}
+
+btn-primary { 
+    color: aliceblue;
+    background-color: aliceblue;
+    text-decoration: wavy;
+
+}
+
